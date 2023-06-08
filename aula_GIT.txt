@@ -1,0 +1,48 @@
+    1  history
+    2  clear
+    3  git config --global user.name   'sergio castillo'
+    4  git config --global user.email 'sergirock1992@gmail.com'
+    5  git config user.name
+    6  git config --global user.email
+    7  cd ~
+    8  cd desktop/
+    9  mkdir GIT
+   10  ls
+   11  cd git
+   12  git config --global user.name
+   13  git config --global user.email
+   14  git init
+   15  git status
+   16  echo 'aprendiendo a usar GIT' > aprendiendo.md
+   17  git status
+   18  git add cosa.md
+   19  git add aprendiendo.md
+   20  git status
+   21  git commit -m 'commit inicial'
+   22  git status
+   23  echo '##aula1' >> aprendiendo.md
+   24  git status
+   25  echo 'sergio castillo' > participante.txt
+   26  git status
+   27  git add.
+   28  git add .
+   29  git status
+   30  git restore --staged participante.txt
+   31  git status
+   32  git restore --staged aprendiendo.md
+   33  git status
+   34  git restore --staged participante.txt
+   35  git status
+   36  git add participante.txt
+   37  git status
+   38  git add aprendiendo.md
+   39  git status
+   40  git restore --staged .
+   41  git status
+   42  git commit -am 'alteracion no aprendiendo'
+   43  git status
+   44  git add participantes.txt
+   45  git add participante.txt
+   46  git status
+   47  git commit -m 'adicionando participante.txt'
+   48  history > aula_GIT.txt
