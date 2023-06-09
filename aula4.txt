@@ -1,0 +1,63 @@
+    1  clear
+    2  git log
+    3  git log --pretty=oneline
+    4  git log --stat
+    5  git log -p
+    6  git log --pretty=online -2
+    7  git log --pretty=oneline -2
+    8  git log --pretty=oneline -3
+    9  git log --pretty=oneline -4
+   10  git log --pretty=oneline -5
+   11  git log -stat
+   12  git log --stat
+   13  git log --p -2
+   14  git log -p -2
+   15  git log --since=2.minutes
+   16  gt log --since=1.hour
+   17  git lot --since=1.hour
+   18  git lot --since=30.minutes
+   19  git log --since=1.hour
+   20  git log author='sergio'
+   21  git log --author='sergio castillo'
+   22  git status
+   23  touch teste
+   24  git add teste
+   25  git status
+   26  git commit -m 'commit de teste nuevo charal'
+   27  git status
+   28  git log
+   29  git reset --soft HEAD~
+   30  git log
+   31  git status
+   32  git commit -m 'commit de testeo para'
+   33  git log
+   34  git reset --hard HEAD~
+   35  git log
+   36  git status
+   37  git log --pretty=oneline
+   38  git checkout HEAD~2
+   39  git checkout
+   40  ls
+   41  git checkout master
+   42  git checkout HEAD~3
+   43  git log
+   44  git log --pretty=oneline
+   45  ls
+   46  git checkout master
+   47  mkdir .micachetona
+   48  touch configuracion.txt
+   49  mv configuracion.txt .micachetona/
+   50  ls
+   51  ls -a
+   52  git status
+   53  echo '.micachetona/' > .gitignore
+   54  git status
+   55  touch mimi.conf
+   56  git status
+   57  echo 'mimi.conf' >> .gitignore
+   58  git status
+   59  git add .gitignore
+   60  git commit -m 'adicionado nuevo archivo de .gitignore'
+   61  git status
+   62  hitstory > aula4.txt
+   63  history > aula4.txt
